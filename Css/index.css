@@ -1,0 +1,81 @@
+body{
+	background-color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+.Navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #ffff;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.1);
+	z-index: 1000;
+	position: fixed;
+	display: flex;
+}
+.container{
+	margin-top: 15px;
+}
+.logo{
+	width: 50px;
+	margin-top: -10px;
+}
+.Menu{
+	float: right;
+	transition: 1s;
+}
+.Menu > .menu-item{
+	text-decoration: none;
+}
+.Menu > .menu-item >li{
+	display: inline;
+	padding: 10px;
+	font-size: 12px;
+	color: black;
+}
+.menu-item > li:hover{
+	color: red;
+	border-bottom: 2px solid red;
+	padding-bottom: 12px;
+}
+.current-menu{
+	color: red;
+	border-bottom: 2px solid red;
+	padding-bottom: 12px;
+}
+
+.menu-icon{
+	color: black
+}
+.mobile{
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+	.Menu{
+		background: red;
+		position: fixed;
+		top: 0;
+		width: 250px;
+		right: 0px;
+		height: 100%;
+		padding: 20px;
+		transition: 1s;
+
+	}
+	.show-menu{
+		display: block !important;
+	}
+	.Menu > .menu-item >li{
+		display: block;
+		color: white;
+		padding-left: 0px;
+	}
+	.menu-item > li:hover{
+		border-bottom: 1px solid #fff;
+	}
+}
