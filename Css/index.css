@@ -11,9 +11,7 @@ body{
 	position: fixed;
 	display: flex;
 }
-.container{
-	
-}
+
 .logo{
 	width: 50px;
 	margin: 10px;
@@ -83,12 +81,29 @@ body{
 	width: 100%;
 	height: 650px;
 	background: #f5f5f5;
+	position: relative;
 }
 .profile-pic{
 	width: 100%;
 	height: 500px;
-	background-color: red;
 	border-radius: 5px;
-	margin-top: 80px;
+	margin-top: 100px;
 	background-size: cover;
+}
+.dots{
+	position: absolute;
+	left: -25px;
+	top: 65px;
+}
+.curve{
+	position: absolute;
+	top: 350px;
+	left:-50px;
+	width: 10px;
+}
+.lines{
+	position: absolute;
+	right: -5px;
+	top: 155px;
+	width: 50px;
 }
