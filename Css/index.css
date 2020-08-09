@@ -1,6 +1,8 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
+	letter-spacing: 2px;
+	font-size: 14px;
 }
 .Navbar{
 	width: 100%;
@@ -11,7 +13,9 @@ body{
 	position: fixed;
 	display: flex;
 }
-
+.pri-color{
+	color: red;
+}
 .logo{
 	width: 50px;
 	margin: 10px;
@@ -106,4 +110,12 @@ body{
 	right: -5px;
 	top: 155px;
 	width: 50px;
+}
+.category{
+	padding-top: 200px;
+	padding-right: 100px;
+}
+.name{
+	font-size: 48px;
+	letter-spacing: 5px;
 }
