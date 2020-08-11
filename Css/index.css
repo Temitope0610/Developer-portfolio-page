@@ -3,6 +3,7 @@ body{
 	margin: 0;
 	letter-spacing: 2px;
 	font-size: 14px;
+	font-weight: 300 !important;
 }
 .Navbar{
 	width: 100%;
@@ -14,7 +15,7 @@ body{
 	display: flex;
 }
 .pri-color{
-	color: red;
+	color: #D23431;
 }
 .logo{
 	width: 50px;
@@ -35,13 +36,13 @@ body{
 	color: black;
 }
 .menu-item > li:hover{
-	color: red;
-	border-bottom: 2px solid red;
+	color: #D23431;
+	border-bottom: 2px solid #D23431;
 	padding-bottom: 12px;
 }
 .current-menu{
 	color: red;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #D23431;
 	padding-bottom: 12px;
 }
 
@@ -51,41 +52,13 @@ body{
 .mobile{
 	display: none;
 }
-@media screen and (max-width: 768px) {
-	.desktop{
-		display: none;
-	}
-	.mobile{
-		display: block;
-	}
-	.Menu{
-		background: red;
-		position: fixed;
-		top: 0;
-		width: 250px;
-		right: 0px;
-		height: 100%;
-		padding: 20px;
-		transition: 1s;
 
-	}
-	.show-menu{
-		display: block !important;
-	}
-	.Menu > .menu-item >li{
-		display: block;
-		color: white;
-		padding-left: 0px;
-	}
-	.menu-item > li:hover{
-		border-bottom: 1px solid #fff;
-	}
-}
 .hero-box{
 	width: 100%;
-	height: 650px;
+	height: auto;
 	background: #f5f5f5;
 	position: relative;
+	padding-bottom: 50px;
 }
 .profile-pic{
 	width: 100%;
@@ -122,10 +95,56 @@ body{
 .btn-work{
 	width: 200px;
 	height: 50px;
-	background-color: red;
+	background-color: #D23431;
 	padding: 12px 16px;
 	color: #fff;
 	font-size: 16px;
 	text-align: left;
 	letter-spacing: 3px;
+}
+.bio-section{
+	width: 100%;
+	height: 300px;
+	background: #fff;
+}
+.redbox{
+	width: 441px;
+	height: 211px;
+	position: absolute;
+	background-color: #D23431;
+	top: 550px;
+	border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+	.Menu{
+		background: #D23431;
+		position: fixed;
+		top: 0;
+		width: 250px;
+		right: 0px;
+		height: 100%;
+		padding: 20px;
+		transition: 1s;
+
+	}
+	.lines{
+		right: 0px;
+	}
+	.show-menu{
+		display: block;
+	}
+	.Menu > .menu-item >li{
+		display: block;
+		color: white;
+		padding-left: 0px;
+	}
+	.menu-item > li:hover{
+		border-bottom: 1px solid #fff;
+	}
 }
