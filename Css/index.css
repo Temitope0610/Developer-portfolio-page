@@ -104,7 +104,7 @@ body{
 }
 .bio-section{
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	background: #fff;
 }
 .redbox{
@@ -116,8 +116,23 @@ body{
 	border-radius: 5px;
 }
 .bio{
-	top: 150px;
+	top: 200px;
 }
+.triangle{
+	position: absolute;
+	right: 10px;
+	top: -50px;
+}
+.bio-name{
+	font-size: 108px;
+	position: absolute;
+	line-height: 40pt;
+	letter-spacing: 10px;
+	bottom: -450px;
+	left: 150px;
+	color: #D23431;
+	opacity: 0.05;
+	}
 @media screen and (max-width: 768px) {
 	.desktop{
 		display: none;
