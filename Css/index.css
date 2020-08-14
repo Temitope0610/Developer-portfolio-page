@@ -59,6 +59,10 @@ body{
 	background: #f5f5f5;
 	position: relative;
 	padding-bottom: 50px;
+	background-image: url(../Images/background-line.png);
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+
 }
 .profile-pic{
 	width: 100%;
@@ -104,7 +108,7 @@ body{
 }
 .bio-section{
 	width: 100%;
-	height: 700px;
+	height: 800px;
 	background: #fff;
 }
 .redbox{
@@ -114,6 +118,8 @@ body{
 	background-color: #D23431;
 	top: 550px;
 	border-radius: 5px;
+	box-shadow: 3px 3px 10px rgba(250,0,0,.1);
+
 }
 .bio{
 	top: 200px;
@@ -132,7 +138,12 @@ body{
 	left: 150px;
 	color: #D23431;
 	opacity: 0.05;
-	}
+}
+.skills-section{
+	width: 100%;
+	height: 694px;
+	background-color: #fbecec;
+}
 @media screen and (max-width: 768px) {
 	.desktop{
 		display: none;
@@ -164,5 +175,9 @@ body{
 	}
 	.menu-item > li:hover{
 		border-bottom: 1px solid #fff;
+	}
+	.bio-name{
+		font-size: 54px;
+		left: 50px;
 	}
 }
