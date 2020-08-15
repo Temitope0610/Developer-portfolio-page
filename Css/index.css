@@ -139,10 +139,20 @@ body{
 	color: #D23431;
 	opacity: 0.05;
 }
+.line-shape{
+	transform: rotate(90deg);
+	position: absolute;
+	top: 1225px;
+	right: 300px;
+	}
 .skills-section{
 	width: 100%;
 	height: 694px;
 	background-color: #fbecec;
+}
+.skills{
+	padding-top: 50px;
+	padding-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
 	.desktop{
