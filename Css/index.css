@@ -153,6 +153,10 @@ body{
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
+.portfolio-section{
+	width: 100%;
+	height: 600px;
+}
 @media screen and (max-width: 768px) {
 	.desktop{
 		display: none;
