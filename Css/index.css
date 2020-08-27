@@ -166,7 +166,12 @@ body{
 	width: 100%;
 	height: auto;
 }
+.form-control{
+	border:none;
+	outline: none;
+	background-color: #f9f9f9;
 
+}
 @media screen and (max-width: 768px) {
 	.desktop{
 		display: none;
